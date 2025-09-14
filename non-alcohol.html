@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cocktail Types - Cocktail Bliss</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Global styles - remain the same */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        
+        header {
+            background-color: #f8d7a1;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #d97330;
+        }
+        
+        /* Types Section */
+        .types-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        
+        .types-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #d97330;
+        }
+        
+        /* Cocktail Grid */
+        .cocktail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 3x3 grid layout */
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .cocktail-card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .cocktail-card h3 {
+            font-size: 1.5rem;
+            color: #d97330;
+        }
+
+        .cocktail-card p {
+            font-size: 1rem;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .cocktail-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #f8d7a1;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #d97330;
+            text-decoration: none;
+        }
+        
+        footer p {
+            font-size: 0.9rem;
+            color: #333;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cocktail Bliss</div>
+            <ul>
+                <li><a href="home cock.html">Home</a></li>
+                <li><a href="alcoholvsnon.html">Types</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="thejaa.html">Theja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="types" class="types-section">
+        <h2>Choose Your  Nonalcoholic Cocktail</h2>
+        <div class="cocktail-grid">
+            <a href="Virgin Margarita.html" class="cocktail-card">
+                <h3>Virgin  Nonalcoholic Margarita</h3>
+                <p>A nonalcoholic version of the classic with a tangy lime kick.</p>
+            </a>
+            <a href="Pomegranate Nonalcoholic Spritzer.html" class="cocktail-card">
+                <h3>Pomegranate Spritzer</h3>
+                <p>A refreshing, bubbly pomegranate drink for any celebration.</p>
+            </a>
+            <a href="Lemon Lavender Spritzer.html" class="cocktail-card">
+                <h3>Lemon Lavender Spritzer</h3>
+                <p>A delicate blend of lemon and lavender for a soothing sip.</p>
+            </a>
+            <a href="Classic Shirley Temple.html" class="cocktail-card">
+                <h3>Classic Shirley Temple</h3>
+                <p>A sweet and timeless drink with a mix of ginger ale and grenadine.</p>
+            </a>
+            <a href="Virgin piña colada.html" class="cocktail-card">
+                <h3>Virgin Piña Colada</h3>
+                <p>A tropical blend of coconut and pineapple, without the alcohol.</p>
+            </a>
+            <a href="Honey Strawberry Lemonade.html" class="cocktail-card">
+                <h3>Honey Strawberry Lemonade</h3>
+                <p>A sweet and tangy drink with the flavors of honey and fresh strawberries.</p>
+            </a>
+            <a href="Grapefruit Rosemary Soda.html" class="cocktail-card">
+                <h3>Grapefruit Rosemary Soda</h3>
+                <p>An invigorating soda with the zing of grapefruit and earthy rosemary.</p>
+            </a>
+            <a href="Pomegranate Mulled Cider.html" class="cocktail-card">
+                <h3>Pomegranate Mulled Cider</h3>
+                <p>A warm and spiced cider perfect for chilly days.</p>
+            </a>
+            <a href="Raspberry Creme Soda.html" class="cocktail-card">
+                <h3>Raspberry Cream Soda</h3>
+                <p>A fizzy, creamy soda with a burst of fresh raspberry flavor.</p>
+            </a>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us: <a href="mailto:info@cocktailbliss.com">info@cocktailbliss.com</a></p>
+        <p>&copy; 2024 Cocktail Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>
